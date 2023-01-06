@@ -76,11 +76,12 @@ Mapby? mapby;
 
 Future<Map<String, String>> getApiHeaders(bool authorizationRequired) async {
   Map<String, String> apiHeader = new Map<String, String>();
+
   if (authorizationRequired) {
     sp = await SharedPreferences.getInstance();
     if (sp!.getString("currentUser") != null) {
       CurrentUser currentUser =
-          CurrentUser.fromJson(json.decode(sp!.getString("currentUser")!));
+          CurrentUser.fromJson(json.decode(sp!.getString("currentUser")!));print("token"+currentUser.token.toString());
       apiHeader.addAll({"Authorization": "Bearer " + currentUser.token!});
     }
   }

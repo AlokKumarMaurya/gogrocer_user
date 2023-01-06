@@ -570,7 +570,9 @@ class _AddAddressScreenState extends BaseRouteState {
                               contentPadding: EdgeInsets.only(top: 10, left: 10, right: 10),
                             ),
                             onChanged: (val) {
-                              _societyList!.clear();
+                              print("SocietyList"+_tSocietyList.toString());
+                              print("SocietyList"+_societyList.toString());
+                            //  _societyList!.clear();
                               if (val.isNotEmpty && val.length > 2) {
                                 _societyList!.addAll(_tSocietyList.where((e) => e.societyName!.toLowerCase().contains(val.toLowerCase())));
                               } else {

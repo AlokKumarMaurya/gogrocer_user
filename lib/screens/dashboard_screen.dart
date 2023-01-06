@@ -344,7 +344,8 @@ class _DashboardScreenState extends BaseRouteState {
                                 )
                               : SizedBox()
                           : SizedBox(),
-                      _isDataLoaded && _homeScreenData != null && (_homeScreenData?.topCat.isNotEmpty ?? false) ? Padding(
+                      _isDataLoaded && _homeScreenData != null && (_homeScreenData?.topCat.isNotEmpty ?? false) ?
+                      Padding(
                         padding: const EdgeInsets.only(
                           top: 16.0,
                           bottom: 8,

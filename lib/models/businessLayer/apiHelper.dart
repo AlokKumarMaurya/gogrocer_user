@@ -135,6 +135,13 @@ class APIHelper {
 
   Future<dynamic> addToCart({int? qty, int? varientId, int? special}) async {
     try {
+
+      print("URL"+ global.baseUrl.toString());
+      print("global.currentUser"+ global.currentUser!.id.toString());
+      print(""+ qty.toString());
+      print(""+ global.nearStoreModel!.id.toString());
+      print(""+ varientId.toString());
+      print(""+ special.toString());
       Response response;
       var dio = Dio();
       var formData = FormData.fromMap({
@@ -1078,6 +1085,8 @@ class APIHelper {
     try {
       Response response;
       var dio = Dio();
+      print('lat'+global.lat.toString()+'lng'+ global.lng.toString());
+      print('language'+ global.languageCode.toString());
       var formData = FormData.fromMap({'lat': global.lat, 'lng': global.lng});
       response = await dio.post('${global.baseUrl}getneareststore',
           queryParameters: {
@@ -1170,6 +1179,7 @@ class APIHelper {
 
   Future<dynamic> getSociety(int? cityId) async {
     try {
+      print("CityId"+cityId.toString());
       Response response;
       var dio = Dio();
       var formData = FormData.fromMap({'city_id': cityId});
@@ -1200,6 +1210,9 @@ class APIHelper {
           options: Options(
             headers: await global.getApiHeaders(true),
           ));
+      print("global.nearStoreModel!.id"+global.nearStoreModel!.id.toString());
+      print("response.data"+response.data.toString());
+
       dynamic recordList;
       if (response.statusCode == 200 && response.data["status"] == '1') {
         recordList = List<Society>.from(response.data["data"].map((x) => Society.fromJson(x)));

@@ -1499,9 +1499,9 @@
     "@txt_get_your": {
         "description": "Get your"
     },
-    "txt_groceries": "groceries",
+    "txt_groceries": "Fresh Chicken",
     "@txt_groceries": {
-        "description": "groceries"
+        "description": "Fresh Chicken"
     },
     "txt_delivered_quickly": "delivered quickly",
     "@txt_delivered_quickly": {
