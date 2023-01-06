@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "429551699198",
+    "project_id": "halalfoods-66bb4",
+    "storage_bucket": "halalfoods-66bb4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:429551699198:android:869eb655ada811f8e3d1af",
+        "android_client_info": {
+          "package_name": "com.hygienehalalfoods"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "429551699198-qhkutujhrt6ev5q5b9j4n2vaa5v0h311.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hygienehalalfoods",
+            "certificate_hash": "b8a342df4f72a066e39cef1600b8afb5e74e489b"
+          }
+        },
+        {
+          "client_id": "429551699198-ua2a0od20fu8266hdsibjtu17psm6po3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-CS7oq-e-MrGbB7G_bsLgD8hZ4cwwIjY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "429551699198-ua2a0od20fu8266hdsibjtu17psm6po3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "429551699198-3s55c2it7a4tlfvuo5lgipo5vgi72lq0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.hygiene.driver"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:429551699198:android:c83b9fc8bd3d9c0ce3d1af",
+        "android_client_info": {
+          "package_name": "com.hygienehalalfoods"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "429551699198-afqrcvimvefgb8dam7qol4gokt7bmuvj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hygienehalalfoods",
+            "certificate_hash": "b8a342df4f72a066e39cef1600b8afb5e74e489b"
+          }
+        },
+        {
+          "client_id": "429551699198-o0ku4b678oh4q5e1uqibc6qr617d7bg2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hygienehalalfoods",
+            "certificate_hash": "3b28ec210086d7184afe87d636378f7bb19d710b"
+          }
+        },
+        {
+          "client_id": "429551699198-ua2a0od20fu8266hdsibjtu17psm6po3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-CS7oq-e-MrGbB7G_bsLgD8hZ4cwwIjY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "429551699198-ua2a0od20fu8266hdsibjtu17psm6po3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "429551699198-3s55c2it7a4tlfvuo5lgipo5vgi72lq0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.hygiene.driver"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,17 @@
+pub.devrel.easypermissions.AfterPermissionGranted
+pub.devrel.easypermissions.AppSettingsDialog
+pub.devrel.easypermissions.AppSettingsDialog$1
+pub.devrel.easypermissions.AppSettingsDialog$Builder
+pub.devrel.easypermissions.AppSettingsDialogHolderActivity
+pub.devrel.easypermissions.BuildConfig
+pub.devrel.easypermissions.EasyPermissions
+pub.devrel.easypermissions.EasyPermissions$PermissionCallbacks
+pub.devrel.easypermissions.RationaleDialogClickListener
+pub.devrel.easypermissions.RationaleDialogConfig
+pub.devrel.easypermissions.RationaleDialogFragment
+pub.devrel.easypermissions.RationaleDialogFragmentCompat
+pub.devrel.easypermissions.helper.ActivityPermissionHelper
+pub.devrel.easypermissions.helper.FrameworkFragmentPermissionHelper
+pub.devrel.easypermissions.helper.LowApiPermissionsHelper
+pub.devrel.easypermissions.helper.PermissionHelper
+pub.devrel.easypermissions.helper.SupportFragmentPermissionHelper

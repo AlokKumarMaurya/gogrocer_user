@@ -1,0 +1,17 @@
+com.bm.library.BuildConfig
+com.bm.library.Info
+com.bm.library.OnRotateListener
+com.bm.library.PhotoView
+com.bm.library.PhotoView$1
+com.bm.library.PhotoView$2
+com.bm.library.PhotoView$3
+com.bm.library.PhotoView$4
+com.bm.library.PhotoView$5
+com.bm.library.PhotoView$6
+com.bm.library.PhotoView$ClipCalculate
+com.bm.library.PhotoView$END
+com.bm.library.PhotoView$InterpolatorProxy
+com.bm.library.PhotoView$OTHER
+com.bm.library.PhotoView$START
+com.bm.library.PhotoView$Transform
+com.bm.library.RotateGestureDetector

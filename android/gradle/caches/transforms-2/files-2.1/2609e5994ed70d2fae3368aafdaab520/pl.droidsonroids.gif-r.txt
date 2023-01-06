@@ -1,0 +1,6 @@
+pl.droidsonroids.gif
+attr freezesAnimation
+attr gifSource
+attr isOpaque
+styleable GifTextureView gifSource isOpaque
+styleable GifView freezesAnimation

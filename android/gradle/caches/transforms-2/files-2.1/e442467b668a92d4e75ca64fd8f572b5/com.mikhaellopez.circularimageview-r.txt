@@ -1,0 +1,8 @@
+com.mikhaellopez.circularimageview
+attr civ_border
+attr civ_border_color
+attr civ_border_width
+attr civ_shadow
+attr civ_shadow_color
+attr civ_shadow_radius
+styleable CircularImageView civ_border civ_border_color civ_border_width civ_shadow civ_shadow_color civ_shadow_radius

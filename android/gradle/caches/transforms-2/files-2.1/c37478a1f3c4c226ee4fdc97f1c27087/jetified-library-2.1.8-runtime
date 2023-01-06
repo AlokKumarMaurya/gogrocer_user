@@ -1,0 +1,15 @@
+com.rampo.updatechecker.ASyncCheck
+com.rampo.updatechecker.ASyncCheckResult
+com.rampo.updatechecker.BuildConfig
+com.rampo.updatechecker.Comparator
+com.rampo.updatechecker.UpdateChecker
+com.rampo.updatechecker.UpdateCheckerResult
+com.rampo.updatechecker.data.Constants
+com.rampo.updatechecker.notice.Dialog
+com.rampo.updatechecker.notice.Dialog$1
+com.rampo.updatechecker.notice.Dialog$2
+com.rampo.updatechecker.notice.Dialog$3
+com.rampo.updatechecker.notice.Notice
+com.rampo.updatechecker.notice.Notification
+com.rampo.updatechecker.store.Store
+com.rampo.updatechecker.utils.Network

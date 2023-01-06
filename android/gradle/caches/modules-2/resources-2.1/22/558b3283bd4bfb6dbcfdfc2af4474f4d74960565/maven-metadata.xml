@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<metadata modelVersion="1.0.0">
+    <groupId>com.github.jaiselrahman</groupId>
+    <artifactId>FilePicker</artifactId>
+    <version>feature~api29_support-1.1.1-g2865ad1-30</version>
+    <versioning>
+        <snapshot>
+            <timestamp>1.1.1-g2865ad1</timestamp>
+            <buildNumber>30</buildNumber>
+        </snapshot>
+    </versioning>
+</metadata>
