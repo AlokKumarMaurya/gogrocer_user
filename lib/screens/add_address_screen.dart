@@ -605,6 +605,7 @@ class _AddAddressScreenState extends BaseRouteState {
                                       Navigator.of(context).pop();
 
                                       setState(() {});
+
                                     });
                               })
                           : Center(
